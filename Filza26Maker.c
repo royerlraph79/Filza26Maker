@@ -73,7 +73,7 @@ int tweakFetchUtils() {
         return 0;
     }
 
-    curl_easy_setopt(curl, CURLOPT_URL, "https://tigisoftware.com/cydia/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb");
+    curl_easy_setopt(curl, CURLOPT_URL, "https://tigisoftware.com/cydia/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm64.deb");
     curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
     curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 0L);
     curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, pbarCallBack);
